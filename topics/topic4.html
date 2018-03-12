@@ -38,10 +38,23 @@
           </p>
 
           <img src = "../img/HuygensFresnel.png" alt="huygens fresnel">
+          <p id = "paragraph">
+            Clearly, representing infinite light sources is not computationally possible, so we must limit the number of them, which can cause some inaccuracy depending on the conditions of the model. We can also reduce the required number of sources by only representing the edges. However this technique is still limited in how it handles some of the wave based interactions of light, for example interference, as it does not take the phase of the light (the phase coming from the wave representation)
+          </p>
         </div>
 
        <div id="sidebar">
-        sidebar content here
+        <h2 id = "content"> Waves </h2>
+        <p id = "paragraph">
+          Obviously, basing the representation on waves rather than rays will inherently take into account the wave based effects that were missing from the previous implementation. The most obvious method for doing this is by solving the appropriate wave equation. The equation for waves in one dimension can be derived like this:
+        </p>
+        <img src = "../img/Wave Equations img.png" alt="Wave Equations">
+        <p id = "paragraph">
+          As you can see, this is a second order differential equation, which is already fairly slow to solve computationally, and furthermore, this is only the equation for one dimension. For accurate rendering, we would need to solve the 3D equivalent of this, which is obviously more complex. Therefore, this is not feasible.
+        </p>
+        <p id = "paragraph">
+	There have obviously been developments in other, less computationally ineffective wave based models, and they generally work via a combination of ray based and wave based models.
+</p>
        </div>
       </div>
       </article>

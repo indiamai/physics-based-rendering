@@ -54,3 +54,20 @@
 td{
   text-align: center;
 }
+
+#content {
+    float:left;
+    width:620px;
+    text-align: center;
+}
+
+
+#sidebar {
+    float:left;
+    width:340px;
+}
+#paragraph {
+  float: left;
+  text-align: justify;
+  width: 620px;
+}

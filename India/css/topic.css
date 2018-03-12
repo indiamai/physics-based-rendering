@@ -107,3 +107,13 @@ td{
   margin-left: auto;
   margin-right: auto;
   margin-left: 4%;
+}
+#content {
+    float:left;
+    width:620px;
+}
+
+#sidebar {
+    float:right;
+    width:340px;
+}

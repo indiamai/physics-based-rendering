@@ -32,7 +32,6 @@
   text-align: center;
   margin: 1%;
   color: #000000;
-  font-size: 20px;
 }
 
 #main-body{
@@ -56,28 +55,6 @@ td{
   text-align: center;
 }
 
-
-#content {
-    float:left;
-    width:600px;
-    text-align: center;
-    margin: 20px auto;
-}
-
-
-#sidebar {
-    float:left;
-    width:600px;
-    text-align: center;
-    margin: 20px auto;
-}
-
-#paragraph {
-  float: left;
-  text-align: justify;
-  width: 580px ;
-  margin: 20px auto;
-  
 .box{
   border-style: solid;
   border-width: 2px;
@@ -90,17 +67,15 @@ td{
 
 #snakeskin{
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  left: 10%;
 }
 
 #textbox1{
   width: 60%;
-  height: 18%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #FFFFFF;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 2em;
 }
 
 #insectwings{
@@ -112,22 +87,14 @@ td{
 
 #lensflare{
   margin-top: 2em;
-  margin-left: 3%;
 }
 
 #textbox2{
-  width: 40%;
-  height: 19%;
   background-color: #FFFFFF;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 3%;
 }
 
 #glory{
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
-  margin-left: 4%;
-
 }
